@@ -1,27 +1,44 @@
 # FormulariosApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+En este proyecto veremos la construcción de formulario por template y reactives para poder compararlos y ver sus diferencias y ventajas.
 
-## Development server
+Para hacer validaciones se utiliza un servidor de JONS-SERVER para iniciarlo se ejecutar el comando:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Iniciar el JSON Server
 
-## Code scaffolding
+Para iniciar el servidor se debe abrir una ventana de comandos e ir al directorio donde esté el archivo JSON de base de datos, en este caso `Servidor\db.json` y ejecutar el comando:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+``` code
+json-server --watch db.json
+```
 
-## Build
+## Formularios por Template
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Conceptos tratados:
 
-## Running unit tests
+- Template driven
+- ViewChild
+- Two way databinding
+- Formularios dinámicos
+- Checks, radios y switches
+- Directivas personalizadas - Nota: este tema se cubre a profundidad después en una sección especializada
+- Manejo del formulario y validaciones
+- Encapsular módulos y scope de los mismos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Formularios reactivos
 
-## Running end-to-end tests
+Conceptos tratados:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Formularios Reactivos
+- Lazyload y tareas relacionadas
+- Validaciones propias de Angular
+- Arreglos y objetos anidados
+- FormBuilder
+- FormGroup
+- FormArray
+- Validaciones manuales
+- Validaciones asíncronas
+- Validar contra expresiones regulares
+- Separar la lógica de validaciones
+- Estado del formulario
+- Mensajes de error personalizados
