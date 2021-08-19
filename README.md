@@ -1,5 +1,7 @@
 # FormulariosApp
 
+[Gracias a Fernando Herrera por este curso](https://www.udemy.com/course/angular-fernando-herrera/learn/lecture/24146746#questions)
+
 En este proyecto veremos la construcción de formulario por template y reactives para poder compararlos y ver sus diferencias y ventajas.
 
 Para hacer validaciones se utiliza un servidor de JONS-SERVER para iniciarlo se ejecutar el comando:
